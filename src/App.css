@@ -1,0 +1,32 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.logo {
+  height: 24px;
+}
+.title_best_sales {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title_best_sales h3:nth-child(1) {
+  font-weight: 550;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #323232;
+}
+.title_best_sales div:nth-child(2) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+  color: #382a81;
+}

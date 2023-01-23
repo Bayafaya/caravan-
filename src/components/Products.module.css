@@ -1,0 +1,42 @@
+.card {
+  border: 1px solid #ffd100;
+  border-radius: 16px;
+  background: #f5f7fb;
+  width: 148px;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.title_of_card {
+  display: flex;
+  justify-content: space-between;
+}
+.title_of_card h5:nth-child(1) {
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #3a3a3a;
+  background: #fcfcfc;
+  border-radius: 16px;
+  padding: 4px 8px;
+  
+}
+.title_of_card div:nth-child(2) {
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #3a3a3a;
+  border-radius: 16px;
+  padding: 4px 8px;
+  background: #fdd835;
+  border-radius: 16px;
+}
+.shoes{
+  height: 120px;
+}
